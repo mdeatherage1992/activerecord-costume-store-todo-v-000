@@ -1,2 +1,2 @@
-class HauntedHouse< ActiveRecord::Migration[5.1]
+class HauntedHouse < ActiveRecord::Migration[5.1]
 end
