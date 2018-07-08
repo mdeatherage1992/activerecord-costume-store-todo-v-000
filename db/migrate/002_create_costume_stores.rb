@@ -8,6 +8,7 @@ class CreateCostumeStores < ActiveRecord::Migration[4.2]
      t.boolean :in_business
      t.string :costume_inventory
      t.datetime.now :created_at
+     t.datetime :updated_at
    end
  end
 end
